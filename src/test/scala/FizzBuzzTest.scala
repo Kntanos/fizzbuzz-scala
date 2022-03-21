@@ -27,8 +27,4 @@ class FizzBuzzTest extends AnyFunSuite {
   test("substitutes 15 with FizzBuzz") {
     assert(FizzBuzz.substituteNumbers(15) === "FizzBuzz")
   }
-
-  test("create a range from 1 up to number given") {
-    assert(FizzBuzz.makeIntoRange(3) === Range.inclusive(1,3))
-  }
 }
